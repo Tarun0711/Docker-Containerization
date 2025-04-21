@@ -1,0 +1,55 @@
+
+table{
+    position: relative;
+    padding: 30px;
+    background: #DEEDFF;
+    width: 1000px;
+    border: 2px solid rgb(140, 140, 251);
+    border-radius: 20px;
+}
+td{
+    padding:10px 50px;
+    text-align: left;
+}
+.Active{
+    border-radius: 10px;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    height:20px;
+    width: 10px;
+
+}
+.active {
+    background: rgb(69, 255, 75);
+    border:green;
+
+}
+.nonActive {
+    background: rgb(255, 45, 13);
+    border:rgb(255, 0, 0);
+
+}
+.buttons{
+    display: flex;
+    gap: 10px;
+}
+.button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color:white;
+    display: flex;
+    font-weight: 600;
+    text-align: center;
+    font-family: sans-serif;
+}
+.start{
+    background-color: rgb(87, 255, 61);
+}
+.stop{
+    background-color: rgb(255, 93, 93);
+}
+.resume{
+    background-color: rgb(114, 114, 255);
+}

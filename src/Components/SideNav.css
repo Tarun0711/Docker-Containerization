@@ -1,0 +1,30 @@
+.Sidenav{
+    background: #001A39;
+    padding:  10px;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-items: center;
+    height: 100vh;
+    gap: 100px;
+
+}
+.Sidenav .icons ,a{
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    font-size: 42px;
+    justify-content: space-between;
+    gap: 20px;
+}
+.Sidenav .icons .icon{
+    transition: 1;
+}
+.Sidenav .icons .icon:hover{
+    transform:scale(1.2)
+    
+} 
+
+.Sidenav>img{
+    height: 80px;
+}
